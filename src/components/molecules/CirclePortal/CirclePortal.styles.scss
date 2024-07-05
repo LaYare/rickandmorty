@@ -1,0 +1,21 @@
+@import '../../../styles';
+
+.CirclePortal {
+  width: pxToRem(50px);
+  height: pxToRem(50px);
+  border-radius: pxToRem(50px);
+  background-color: #17202a;
+  position: absolute;
+  bottom: pxToRem(3px);
+  right: pxToRem(15px);
+  background-image: url('../../../assets/portal.png');
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    padding: 0;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../../styles';
+
+.scroll-to-top {
+  position: fixed;
+  bottom: pxToRem(20px);
+  right: pxToRem(20px);
+  border: none;
+  padding: pxToRem(50px) pxToRem(50px);
+  cursor: pointer;
+  background: url('../../../assets/up.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

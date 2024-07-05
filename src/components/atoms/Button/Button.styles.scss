@@ -1,0 +1,7 @@
+@import '../../../styles';
+
+.Button {
+  @include inputStyles($white, $secondary);
+  width: max-content;
+  border-radius: 0 pxToRem(5px) pxToRem(5px) 0;
+}

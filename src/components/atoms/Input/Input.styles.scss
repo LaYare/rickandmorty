@@ -1,0 +1,17 @@
+@import '../../../styles';
+
+.Input {
+  @include inputStyles($secondary, $fade-white);
+  min-width: 60%;
+  max-width: 80%;
+  border-radius: pxToRem(5px) 0 0 pxToRem(5px);
+
+  &:focus {
+    outline: none;
+  }
+
+  @include breakpoint(md) {
+    min-width: 5%;
+    width: calc(90% - 300px);
+  }
+}

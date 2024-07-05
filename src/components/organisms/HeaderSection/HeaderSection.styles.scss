@@ -1,0 +1,11 @@
+@import '../../../styles';
+
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  @include breakpoint(md) {
+    justify-content: center;
+    flex-direction: column;
+  }
+}

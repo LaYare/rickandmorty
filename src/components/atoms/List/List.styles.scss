@@ -1,0 +1,16 @@
+@import '../../../styles';
+
+.List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $black;
+  background-color: $white;
+  font-size: pxToRem(15px);
+  text-align: left;
+  padding-left: pxToRem(20px);
+  margin-top: pxToRem(20px);
+  border-top: pxToRem(3px) solid $black;
+  border-bottom: pxToRem(2px) solid $black;
+  height: pxToRem(150px);
+}

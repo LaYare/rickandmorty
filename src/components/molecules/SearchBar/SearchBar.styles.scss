@@ -1,0 +1,13 @@
+@import '../../../styles';
+
+.SearchBar {
+  margin-left: pxToRem(80px);
+  width: 60%;
+  display: flex;
+  @include breakpoint(md) {
+    margin-left: 0;
+    margin-top: pxToRem(50px);
+    margin-bottom: pxToRem(50px);
+    width: 90%;
+  }
+}

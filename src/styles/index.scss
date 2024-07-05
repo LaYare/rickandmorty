@@ -1,0 +1,10 @@
+@import './utils/main.scss';
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Comic Sans', Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: url('../assets/pointer.png'), auto;
+  background: url('../assets/bkg.webp');
+}

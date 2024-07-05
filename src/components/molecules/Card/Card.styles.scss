@@ -1,0 +1,39 @@
+@import '../../../styles/';
+
+.Card {
+  width: pxToRem(300px);
+  max-width: pxToRem(310px);
+  height: pxToRem(500px);
+  position: relative;
+  background: radial-gradient(
+      circle at 100% 50%,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 20%,
+        rgba(255, 255, 255, 0.3) 21%,
+        rgba(255, 255, 255, 0.3) 34%,
+        transparent 35%,
+        transparent
+      )
+      0 -50px;
+  background-color: $primary;
+  background-size: pxToRem(75px) pxToRem(100px);
+  margin: pxToRem(35px) 0;
+  border-radius: pxToRem(10px);
+  box-shadow: 0px 0px 30px -2px $black;
+
+  &__picture {
+    width: 100%;
+    height: pxToRem(250px);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: pxToRem(4px) solid $black;
+    border-bottom: pxToRem(4px) solid $black;
+  }
+}

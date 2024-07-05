@@ -1,0 +1,30 @@
+@import '../../../styles';
+
+.BorderedText {
+  color: $white;
+  -webkit-text-stroke-width: pxToRem(1px);
+  -webkit-text-stroke-color: $black;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin: pxToRem(10px);
+  line-height: pxToRem(24px);
+  text-align: left;
+  padding-left: pxToRem(10px);
+
+  &--small {
+    font-size: pxToRem(16px);
+  }
+
+  &--medium {
+    font-size: pxToRem(20px);
+  }
+
+  &--large {
+    font-size: pxToRem(35px);
+  }
+
+  &--x-large {
+    font-size: pxToRem(45px);
+    line-height: pxToRem(50px);
+  }
+}

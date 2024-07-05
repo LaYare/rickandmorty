@@ -1,0 +1,13 @@
+@import '../../../styles';
+
+.CardList {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include breakpoint(sm) {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../../styles';
+
+.EmptyState {
+  width: 100%;
+  height: pxToRem(650px);
+  background: url('../../../assets/error.png');
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  p {
+    width: 80%;
+    text-align: center;
+    @include breakpoint(xs) {
+      width: 100%;
+      font-size: pxToRem(28px);
+      line-height: pxToRem(30px);
+    }
+
+    @include breakpoint(sm) {
+      width: 100%;
+      font-size: pxToRem(35px);
+      line-height: pxToRem(35px);
+    }
+  }
+}
