@@ -1,7 +1,14 @@
 import './Input.styles.scss';
 
 const Input = ({ onChange, type = 'text' }) => {
-  return <input className="Input" onChange={onChange} type={type} />;
+  return (
+    <input
+      placeholder="Write a name"
+      className="Input"
+      onChange={onChange}
+      type={type}
+    />
+  );
 };
 
 export default Input;

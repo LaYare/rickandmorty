@@ -10,4 +10,17 @@
     margin-bottom: pxToRem(50px);
     width: 90%;
   }
+
+  @include breakpoint(sm) {
+    flex-direction: column;
+    input,
+    div,
+    button {
+      width: 100%;
+    }
+  }
+
+  &__filters {
+    display: flex;
+  }
 }

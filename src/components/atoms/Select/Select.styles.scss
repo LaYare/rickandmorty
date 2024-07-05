@@ -7,6 +7,9 @@
   font-size: pxToRem(16px);
   font-weight: 700;
   color: $secondary;
+  border-radius: 0;
+  width: 100%;
+  padding-left: pxToRem(10px);
   &:focus {
     outline: none;
   }

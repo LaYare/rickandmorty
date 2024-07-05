@@ -9,8 +9,10 @@ const SearchBar = ({ onChange, onSearch, onChangeStatus, onChangeGender }) => {
   return (
     <div className="SearchBar">
       <Input onChange={onChange} />
-      <Select options={status} onChange={onChangeStatus} />
-      <Select options={genders} onChange={onChangeGender} />
+      <div className="SearchBar__filters">
+        <Select options={status} onChange={onChangeStatus} />
+        <Select options={genders} onChange={onChangeGender} />
+      </div>
       <Button onClick={onSearch} text={'Search'} />
     </div>
   );

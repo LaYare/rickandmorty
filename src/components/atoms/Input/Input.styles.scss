@@ -6,6 +6,10 @@
   max-width: 80%;
   border-radius: pxToRem(5px) 0 0 pxToRem(5px);
 
+  &::placeholder {
+    color: $secondary;
+  }
+
   &:focus {
     outline: none;
   }
@@ -13,5 +17,10 @@
   @include breakpoint(md) {
     min-width: 5%;
     width: calc(90% - 300px);
+  }
+
+  @include breakpoint(sm) {
+    border-radius: 0;
+    max-width: calc(100% - 28px);
   }
 }
