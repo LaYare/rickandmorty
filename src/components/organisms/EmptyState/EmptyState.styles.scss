@@ -11,6 +11,10 @@
   align-items: flex-end;
   justify-content: center;
 
+  @include breakpoint(xs) {
+    background-size: 90%;
+  }
+
   p {
     width: 80%;
     text-align: center;

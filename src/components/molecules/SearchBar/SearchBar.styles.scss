@@ -18,6 +18,10 @@
     button {
       width: 100%;
     }
+
+    div {
+      border-top: 1px solid $secondary;
+    }
   }
 
   &__filters {
